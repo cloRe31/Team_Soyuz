@@ -21,6 +21,15 @@
     <main>
         <div class="main-container">
             <aside>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Поиск товаров..." oninput="filterProducts()">
+                    <select id="manufacturerSelect" onchange="filterProducts()">
+                        <option value="all">Все производители</option>
+                        <option value="IKEA">IKEA</option>
+                        <option value="HOFF">HOFF</option>
+                    </select>
+                </div>
+
                 <button onclick="showProduction('bedroom')">Спальня</button>
                 <button onclick="showProduction('kitchen')">Кухня</button>
                 <button onclick="showProduction('children')">Детская</button>
