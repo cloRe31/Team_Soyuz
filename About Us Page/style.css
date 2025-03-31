@@ -8,8 +8,9 @@ body {
     flex-direction: column;
 }
 
-h3{
+h2{
     margin: 0;
+    color: #5E3F2B;
 }
 
 header {
@@ -21,8 +22,8 @@ header {
 }
 
 .logo > a > img{
-    width: 120px;
-    height: 120px;
+    width: 100  px;
+    height: 100px;
 }
 
 nav a {
@@ -42,6 +43,22 @@ main{
 
 .about-container{
     margin: 10px 50px;
+}
+
+.about-text > p{
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.company-img{
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 65%;
+        height: 700px;
+    }
 }
 
 footer {
